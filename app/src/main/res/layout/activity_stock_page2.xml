@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StockPage2">
+    // 顶部导航
+    <RelativeLayout
+        android:background="#06a9ec"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/fanhui"
+            android:id="@+id/fanhhuu"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加自选股"
+            android:textSize="26dp"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+    <!--第一部分-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上海交易所（SH）"
+                android:textSize="20dp"
+                android:id="@+id/btn_shjys"
+                android:background="#82e2ed"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入股票代码"
+                android:textSize="20dp"
+                android:layout_marginLeft="-33dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="215dp"
+        android:background="#54e0f1">
+
+    </RelativeLayout>
+    <!--第二部分-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:background="#e9e9e9"
+        android:layout_marginTop="115dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:background="#e9e9e9">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="股票名称"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="-15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="股票代码"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="-80dp"/>
+        </LinearLayout>
+        <!--第三部分-->
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/zhexiantu"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="100dp"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:background="#09bbd0" />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/tianjia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="465dp"/>
+
+</RelativeLayout>

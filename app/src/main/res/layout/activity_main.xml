@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_1116601"
+    >
+    <!--    导航栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="#0f7bed"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="XT理财助手"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <!--记账-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        >
+        // 空
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+        //  记账图标
+        <LinearLayout
+            android:id="@+id/licd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/lc_jz"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:background="@drawable/add_kategorie_money"
+                />
+        </LinearLayout>
+        // 空
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="30dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <!--    备忘录+自选股-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        >
+        <!--        备忘录-->
+        <LinearLayout
+            android:id="@+id/memo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/lc_bwl"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ccr_deduct_welcome_icon1"
+                android:layout_marginLeft="40dp"
+                />
+        </LinearLayout>
+        // 空
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        </LinearLayout>
+        // 选股票
+        <LinearLayout
+            android:id="@+id/tongji"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/lc_zxg"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/feed_iko_overview"
+                android:layout_marginRight="30dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    // 关于+常识
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        >
+        // 关于
+        <LinearLayout
+            android:id="@+id/about"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/lc_gy"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/feed_iko_otaznik"
+                android:layout_marginLeft="40dp"
+                />
+        </LinearLayout>
+        // 空
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        </LinearLayout>
+        // 理财常识
+        <LinearLayout
+            android:id="@+id/maozi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/lc_cs"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/feed_iko_school"
+                android:layout_marginRight="30dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <!--计算器-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        >
+        空
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+        计算器
+        <LinearLayout
+            android:id="@+id/jisuanqi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            >
+            <ImageButton
+                android:id="@+id/lc_jsq"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/passcode_ikona"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+        空
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="30dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    // 底部
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        // 底部任务栏
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#4b9ddb"
+            android:layout_alignParentBottom="true"
+            >
+            // 退出
+            <ImageButton
+                android:id="@+id/lc_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dfdgs"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

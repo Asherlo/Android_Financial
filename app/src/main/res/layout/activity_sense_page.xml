@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensePage"
+    android:orientation="vertical"
+    >
+    <!--    理财常识-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#4c80e9"
+            >
+            <ImageView
+                android:id="@+id/fann"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kakalib_top_nav_back_click"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="理财常识"
+
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        >
+        <ImageView
+            android:id="@+id/zuobiejian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_left"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0.5dp"
+            />
+        <ImageView
+            android:id="@+id/shangyi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/suite_bg_for_common_1"
+            android:layout_alignBottom="@+id/zuobiejian"
+            android:layout_marginLeft="80dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消费者权"
+            android:layout_alignLeft="@+id/shangyi"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="23dp"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="益保护法"
+            android:layout_alignLeft="@+id/shangyi"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="23dp"
+            android:textColor="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/shangyou"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/suite_bg_for_fitment"
+            android:layout_toRightOf="@+id/shangyi"
+            android:layout_alignBottom="@+id/zuobiejian"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经济名次"
+            android:textColor="#fff"
+
+            android:layout_alignLeft="@+id/shangyou"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="26dp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_right"
+
+            android:layout_alignParentRight="true"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/zuobiejiand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_left"
+
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0.5dp"
+
+
+            />
+
+
+        <ImageView
+
+            android:id="@+id/shangyii"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/suite_bg_for_fitment"
+
+            android:layout_alignBottom="@+id/zuobiejiand"
+            android:layout_marginLeft="80dp"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金融基础"
+            android:textColor="#fff"
+
+            android:layout_alignLeft="@+id/shangyii"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="26dp"
+            />
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/shangyouu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/suite_bg_for_marry"
+            android:layout_toRightOf="@+id/shangyii"
+            android:layout_alignBottom="@+id/zuobiejiand"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="财经基础"
+            android:textColor="#fff"
+
+            android:layout_alignLeft="@+id/shangyouu"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="26dp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_right"
+
+            android:layout_alignParentRight="true"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/zuobiejiandd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_left"
+
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0.5dp"
+
+
+            />
+
+
+        <ImageView
+
+            android:id="@+id/shangyiiii"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/suite_bg_for_common_1"
+
+            android:layout_alignBottom="@+id/zuobiejiandd"
+            android:layout_marginLeft="80dp"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="税务基础"
+            android:textColor="#fff"
+
+            android:layout_alignLeft="@+id/shangyiiii"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="26dp"
+            />
+
+
+
+
+
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_right"
+
+            android:layout_alignParentRight="true"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+
+        >
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_left"
+
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0.5dp"
+
+            />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_right"
+
+            android:layout_alignParentRight="true"
+
+            />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+
+        >
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_left"
+
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="0.5dp"
+
+            />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bookshelf_layer_right"
+            android:layout_alignParentRight="true"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>

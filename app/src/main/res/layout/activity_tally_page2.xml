@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TallyPage2"
+    android:orientation="vertical"
+    android:background="#d0d8d9"
+    >
+    <!--    导航栏-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#06a9ec">
+        <!--        返回图标-->
+        <ImageView
+            android:id="@+id/fanhhuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kakalib_top_nav_back_click"
+            />
+        <!--        记账-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="记账"
+            android:textColor="#000"
+            android:textSize="26dp" />
+    </RelativeLayout>
+    <!--支出、收入-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#524f4f">
+        <!--支出-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="支出"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:id="@+id/zc"
+            />
+        <!--收入-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="收入"
+            android:textColor="#ffffff"
+            android:id="@+id/sr"
+            android:textSize="25dp" />
+    </LinearLayout>
+    <!--蓝色下划线-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#ffff">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="8dp">
+            <LinearLayout
+                android:layout_width="95dp"
+                android:layout_height="8dp"
+                android:background="#00d6ef"
+                android:layout_marginLeft="52dp"
+                >
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--类别-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="类别:"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="餐饮"
+            android:textSize="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+
+    </LinearLayout>
+    <!--账户-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:background="#ffff"
+            android:layout_marginLeft="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="账户:"
+                    android:textSize="25dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="130dp"
+                    android:text="现金"
+                    android:textSize="25dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <!--日期-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="40dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="日期:"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="星期三"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="120dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <!--项目-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="40dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="项目:"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="日常"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="130dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <!--成员-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="40dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="成员:"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="自己"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="130dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <!--备注-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="40dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="添加备注："
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <!--保存+查看-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+        <!--保存-->
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="65dp"
+            android:background="#24af48"
+            android:id="@+id/Save"
+            android:text="保存" />
+        <!--查看-->
+        <Button
+            android:id="@+id/Look"
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="65dp"
+            android:background="#f9d510"
+            android:text="查看账单" />
+    </LinearLayout>
+</LinearLayout>

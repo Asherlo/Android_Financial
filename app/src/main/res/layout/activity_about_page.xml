@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutPage"
+    android:background="@drawable/bg_114894"
+    android:orientation="vertical"
+    >
+    <!--    导航-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4c80e9"
+        >
+        <!--        返回-->
+        <ImageView
+            android:id="@+id/fanhhuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kakalib_top_nav_back_click"
+            />
+        <!--        关于文字-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于助手"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+    <!--    图标1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+    <!--    版本号、功能介绍-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本号：1.0.0"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <!--        下划线-->
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#a5a3a3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+        </LinearLayout>
+        <!--        功能介绍-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="功能介绍"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+
+            />
+        <!--        下划线-->
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#a5a3a3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

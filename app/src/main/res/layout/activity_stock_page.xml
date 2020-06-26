@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StockPage">
+    // 顶部导航
+    <RelativeLayout
+        android:background="#06a9ec"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        // 导航返回图标
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/fanhhuu"
+            android:src="@drawable/fanhui"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+        // 自选股文字
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自选股"
+            android:textSize="26dp"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+        // 右上角刷新图标
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/shuaxin"
+            android:layout_marginLeft="365dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    // part1 三个按钮
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#e0dfdc">
+        // 代码名称
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:text="代码名称"
+                android:textSize="20dp"
+                android:textColor="#dd3996"
+                android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+        // 最新价
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="最新价"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="18dp"
+                android:textSize="20dp"
+                android:textColor="#dd3996"
+                />
+        </LinearLayout>
+        // 涨跌幅
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            >
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="涨跌幅"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="23dp"
+                android:textSize="20dp"
+                android:textColor="#dd3996"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    // part2 中间部为空
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:layout_marginTop="110dp"
+        android:background="#b2e0e1"
+        >
+    </LinearLayout>
+    // 底部添加按钮
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_zxg"
+        android:text="添加自选股"
+        android:textSize="25dp"
+        android:layout_marginTop="555dp"/>
+</RelativeLayout>
